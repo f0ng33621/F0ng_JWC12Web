@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css2?family=Itim&display=swap);
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Itim", Monospace;
+  letter-spacing: -1px;
+  box-sizing: border-box;
+}
+
+.centertext {
+  margin-top: 1vw;
+  text-align: center;
+  color: aliceblue;
+  font-family: 'Itim', cursive;
+}
+
+.centerbox {
+  margin: auto;
+  border-radius: 25px;
+  text-align: center;
+  width: 10vw;
+  height: 5vw;
+  border: 3px;
+  padding: 10px;
+  background: white;
+}
+
+.centertextinbox {
+  margin: 0.25vw;
+  text-align: center;
+}
+
+.textleft {
+  margin-top: 12vw;
+  margin-left: 20px;
+  width: 65%;
+  padding: 10px;
+  color: whitesmoke;
+}
+
+.textright {
+  position: relative;
+  right: -50vw;
+  margin-top: 8vw;
+  text-align: left;
+  width: 45%;
+  color: whitesmoke;
+}
+
+.imageleft {
+  position: relative;
+  top: -1vw;
+  left: -45vw;
+  margin-top: -25vw;
+  size: 75%;
+}
+
+.imageright {
+  margin-top: -25vw;
+  margin-left: 60vw;
+  size: 75%;
+}
+
+.centertext2 {
+  margin-top: 8vw;
+  text-align: center;
+  color: aliceblue;
+  font-family: 'Itim', cursive;
+}
+
+.column {
+  float: left;
+  width: 100%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.circletext {
+  color: aliceblue;
+  padding-left: 20vw;
+}
+
+.circular--landscape {
+  display: block;
+  position: relative;
+  margin-left: 5vw;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+.firstpanel{
+  position: relative;
+}
+
+.responsive {
+  width: 1000%;
+  max-width: 800px;
+  height: auto;
+}
